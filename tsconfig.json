@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",                          // Specify ECMAScript target version
+    "module": "commonjs",                     // Specify module code generation
+    "strict": true,                           // Enable all strict type-checking options
+    "esModuleInterop": true,                  // Enable compatibility for ES6 module imports
+    "resolveJsonModule": true,                // Allow importing .json files
+    "outDir": "./dist",                       // Redirect output structure to this directory
+    "typeRoots": ["./node_modules/@types"],   // Specify type declaration files to include
+    "baseUrl": "./",                          // Base directory to resolve non-relative module names
+  },
+  "include": ["src/**/*.ts"],                 // Specify files to include
+  "exclude": ["node_modules", "dist"]         // Specify files to exclude
+}
